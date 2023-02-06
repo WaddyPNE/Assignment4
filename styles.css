@@ -1,0 +1,48 @@
+.box{
+    width: 1000px;
+    height: 40px;
+    background:rgb(247, 220, 181);
+    border: solid 1px;
+=
+}
+.background-color{
+    background: burlywood;
+}
+
+.picture-container{
+    width: fit-content;
+    height: fit-content;
+    border: solid;
+    overflow: hidden;
+}
+
+.text-container{
+    padding-left: 10px;
+    background: rgb(247, 220, 181);
+    width: 1000px;
+    height: 200px;
+    border: solid 1px;
+}
+
+.bio-container{
+    padding-left: 10px;
+    background: wheat;
+    width: 1000px;
+    height: fit-content;
+    border: solid 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  body {
+    position: relative;
+    background: #00222B;
+  }
+  
+  canvas#canvas {
+    display: block;
+  }
